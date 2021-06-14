@@ -86,6 +86,7 @@
                     <option value="6">万能接口7</option>
                     <option value="7">万能接口8</option>
                     <option value="8">万能接口9</option>
+                    <option value="9">bilibili解析</option>
                   </select>
                 </div>
               </div>
@@ -148,6 +149,8 @@ $(document).ready(function(){
              $('#player').attr('src',"https://www.8090.la/api/?url="+address);
          }else if(itemValue1 == 8){
              $('#player').attr('src',"https://www.playm3u8.cn/jiexi.php?url="+address);
+         }else if(itemValue1 == 9){
+             $('#player').attr('src',"https://vip.parwix.com:4433/player/?url="+address);
          }
       };
   });
